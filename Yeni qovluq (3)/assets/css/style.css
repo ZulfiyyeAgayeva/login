@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,.9)), url('https://www.nantech.az/img/sign.svg');
+    font-family: 'Roboto', sans-serif;;
+}
+.headline{
+    color: rgb(190, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.headline span{
+color: rgb(63, 135, 243);
+font-size: 30px;
+}
+.box{
+    width: 27%;
+    text-align: center;
+    border: 1px solid rgb(204, 203, 203);
+    margin:  2% auto;
+    height: 330px;
+    border-radius: 15px;
+    border: 1px solid rgb(189, 188, 188);
+    box-shadow: 0 3px 2px 2px rgb(214, 214, 214);
+    padding: 40px;
+}
+.main-box{
+    margin: 7% 0 auto;
+
+}
+input{
+    padding: 13px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 188, 188);
+    margin: 10px 0;
+}
+input::placeholder{
+ font-size: 15px;
+}
+.sign{
+    margin: 10px;
+    /* font-size: 25px; */
+}
+.btn button{
+    padding: 13px;
+    /* margin: 10px; */
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 188, 188);
+    background-color:rgb(184, 24, 21);
+    color: white;
+    margin-bottom: 50px;
+}
+.footpart{
+    display: flex;
+    justify-content: center;
+}
+.footpart span{
+  font-weight: 900;
+}
+.password{
+position: relative;
+}
+.password i{
+    position: absolute;
+    right: 35px;
+    top: 21px;
+    font-size: 22px;
+}
+@media (max-width: 1350px){
+    .sign p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1300px){
+    .password i{
+        right: 30px;
+    }
+}
+@media (max-width: 1250px){
+    .password i{
+        right: 20px;
+    }
+}
+@media (max-width: 1201px){
+    .password i{
+        right: 25px;
+    }
+     .sign p{
+        font-size: 20px;
+        margin: 0;
+    }
+    input{
+        width: 200px;
+    }
+    .btn button{
+        width: 200px;
+    }
+    input::placeholder{
+        font-size: 13px;
+       }
+}
+@media (max-width: 1171px){
+    .sign p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1150px){
+    .password i{
+        right: 10px;
+    }
+}
+
+@media (max-width: 1099px){
+    .sign p{
+        font-size: 16px;
+    }
+    .password i{
+        right: 5px;
+    }
+}
+@media (max-width: 1027px){
+    .sign p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 991px){
+    .sign p{
+        font-size: 14px;
+    }
+    input{
+        width: 180px;
+        margin-right: 120px;
+    }
+    .btn button{
+        width: 180px;
+    }
+    .footpart p{
+        font-size: small;
+    }
+}
+@media (max-width: 955px){
+    .sign p{
+        font-size: 13px;
+    }
+    input{
+        width: 170px;
+    }
+    .btn button{
+        width: 170px;
+    }
+     input::placeholder{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 890px){
+    .box{
+       padding: 35px;
+    }
+}
+@media (max-width: 840px){
+    .box{
+       padding: 30px;
+    }
+    input, .btn button{
+        width: 160px;
+    }
+}
+@media (max-width: 840px){
+    .box{
+       padding: 25px;
+    }
+    input, .btn button{
+        width: 150px;
+        padding: 10px;
+    }
+}
+@media (max-width: 700px){
+    .box{
+       padding: 20px;
+    }
+    input, .btn button{
+        width: 140px;
+        padding: 8px;
+    }
+    input::placeholder{
+        font-size: 10px;
+    }
+    .password i{
+        font-size: 16px;
+        right: 15px;
+        bottom: 10px;
+    }
+}
+@media (max-width: 640px){
+    .password i{
+        right: 10px;
+        bottom: 10px;
+    }
+    input, .btn button{
+        width: 130px;
+        padding: 8px;
+    }
+}
+@media (max-width: 640px){
+    input, .btn button{
+        width: 120px;
+        padding: 5px;
+    }
+    .password i{
+       top: 15px;
+       right: 13px;
+    }
+}
+@media (max-width: 590px){
+    .password i{
+        right: 5px;
+     }
+}
+@media (max-width: 550px){
+    .password i{
+        right: 1px;
+     }
+     input, .btn button{
+        width: 110px;
+        padding: 5px;
+    }
+    input::placeholder{
+        font-size: 8px;
+    }
+    .footpart p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
